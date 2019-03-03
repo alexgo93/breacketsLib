@@ -1,5 +1,5 @@
 {
-    "name": "alexgo93/brackets_check",
+    "name": "alexgo93/brackets_balance_check",
     "description": "brackets check library",
     "type": "library",
     "require": {
