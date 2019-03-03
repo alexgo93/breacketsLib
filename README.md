@@ -5,3 +5,5 @@
 # Installation
 
 composer require alexgo93/brackets_balance_check
+
+# Description
