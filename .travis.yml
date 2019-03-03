@@ -5,5 +5,5 @@ php:
 install:
   - make install
 script:
-  - phpcs --standard=PSR1,PSR2 bin src
+  - ls
 
