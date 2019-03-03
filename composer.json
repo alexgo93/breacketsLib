@@ -20,5 +20,8 @@
 	  "src/breacketEngine.php"
 	]
     },
-    "bin": ["bin/run"]
+    "bin": ["bin/run"],
+    "scripts": {
+    "phpcs": "phpcs"
+  }
 }
