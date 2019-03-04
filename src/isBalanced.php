@@ -1,6 +1,6 @@
 <?php
 
-function isBalanced(string $str) : bool
+function isBalanced(string $str)
 {
     $stackArray = [];
     $balanceArray = ['[]', '{}', '()'];

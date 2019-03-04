@@ -18,8 +18,7 @@
     ],
     "autoload": {
         "files": [
-	  "src/isBalanced.php",
-	  "src/breacketEngine.php"
+	  "src/isBalanced.php"
 	]
     },
     "bin": ["bin/run"],
