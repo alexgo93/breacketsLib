@@ -6,6 +6,10 @@
 
 composer require alexgo93/brackets_balance_check
 
+for use from command line
+composer global require alexgo93/brackets_balance_check
+and write "run" for check balance of brackets
+
 # Description
 
 This is the library where you can check some types([,(,{) of brackets on balance.
