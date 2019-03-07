@@ -7,3 +7,9 @@
 composer require alexgo93/brackets_balance_check
 
 # Description
+
+This is the library where you can check some types([,(,{) of brackets on balance.
+
+#Asciinema
+
+[![asciicast](https://asciinema.org/a/wX9u12hbXMZYVVul5PK5EITIf.svg)](https://asciinema.org/a/wX9u12hbXMZYVVul5PK5EITIf)
