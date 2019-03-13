@@ -7,21 +7,21 @@ function isBalanced(string $str)
     $openArray = ['[', '{', '('];
     $count = strlen($str);
 
-    for ($i = 0; $i < $count; $i += 1) {
+    for($i = 0; $i < $count; $i += 1) {
         if (in_array($str[$i], $openArray)) {
             array_push($stackArray, $str[$i]);
-        } else {
+        }else {
             $balanceStr = array_pop($stackArray) . $str[$i];
 
-            if (in_array($balanceStr, $balanceArray)) {
+            if(in_array($balanceStr, $balanceArray)) {
                 $balanceStr = '';
-            } else {
+            }else {
                 return false;
             }
         }
     }
 
-    if (empty($stackArray)) {
+    if(empty($stackArray)) {
         return true;
     }
 }
