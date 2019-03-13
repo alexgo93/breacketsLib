@@ -1,13 +1,13 @@
 <?php
 
-function isBalanced(string $str)
+function isBalanced($str)
 {
-    $stackArray = [];
-    $balanceArray = ['[]', '{}', '()'];
-    $openArray = ['[', '{', '('];
-    $count = strlen($str);
+    $stackArray=[];
+    $balanceArray=['[]', '{}', '()'];
+    $openArray=['[', '{', '('];
+    $count=strlen($str);
 
-    for($i = 0; $i < $count; $i += 1) {
+    for($i = 0; $i < $count; $i++) {
         if (in_array($str[$i], $openArray)) {
             array_push($stackArray, $str[$i]);
         }else {
