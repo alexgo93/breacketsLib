@@ -21,7 +21,5 @@ function isBalanced($str)
         }
     }
 
-    if(empty($stackArray)) {
-        return true;
-    }
+    return empty($stackArray);
 }
