@@ -17,3 +17,7 @@ This is the library where you can check some types([,(,{) of brackets on balance
 # Asciinema
 
 [![asciicast](https://asciinema.org/a/wX9u12hbXMZYVVul5PK5EITIf.svg)](https://asciinema.org/a/wX9u12hbXMZYVVul5PK5EITIf)
+
+# Asciinema подключения
+
+[![asciicast](https://asciinema.org/a/O0QmoSO2LjW1PgWdtaHBpXyw2.svg)](https://asciinema.org/a/O0QmoSO2LjW1PgWdtaHBpXyw2)
