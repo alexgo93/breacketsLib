@@ -9,6 +9,6 @@ function run()
 {
     out("Enter a string of brackets\n");
     $brackets = input();
-    out(isBalanced($brackets) . "\n");
+    isBalanced($brackets) ? out("Balanced \n") : out("Non balanced \n");
 }
 run();
